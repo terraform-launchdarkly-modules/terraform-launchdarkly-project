@@ -1,0 +1,7 @@
+test.tfvars
+# This file is used to define variables for testing purposes.
+# It should not be committed to the repository.
+.terraform
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.lock.hcl
