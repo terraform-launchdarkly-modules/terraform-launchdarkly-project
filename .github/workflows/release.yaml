@@ -21,6 +21,9 @@ jobs:
         with:
           ref: main
           fetch-depth: 0  # Required to push changes
+          
+      - name: Fix permissions
+        run: sudo chown -R $(whoami) .
 
       - name: Set up Git user
         run: |
