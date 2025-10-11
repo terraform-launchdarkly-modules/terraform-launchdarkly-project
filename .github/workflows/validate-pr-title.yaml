@@ -43,4 +43,3 @@ jobs:
           # Disable single commit message validation for squash merges
           validateSingleCommit: false
             # Custom error message for invalid PR titles
-            
