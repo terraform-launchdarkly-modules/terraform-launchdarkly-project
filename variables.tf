@@ -1,20 +1,20 @@
-variable "project_key" {
+variable project_key {
   description = "The key of the LaunchDarkly project."
   type        = string
 }
 
-variable "project_name" {
+variable project_name {
   description = "The name of the LaunchDarkly project."
   type        = string
 }
 
-variable "project_tags" {
+variable project_tags {
   description = "Tags for the project."
   type        = list(string)
   default     = []
 }
 
-variable "environments" {
+variable environments {
   type = map(object({
     key   = string
     name  = string
@@ -29,9 +29,7 @@ variable "environments" {
   }))
 }
 
-
-
-variable "launchdarkly_access_token" {
+variable launchdarkly_access_token {
   description = "Your LaunchDarkly personal access token"
   type        = string
   sensitive   = true
