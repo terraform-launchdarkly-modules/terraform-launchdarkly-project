@@ -21,7 +21,7 @@ This module is designed for flexibility, reusability, and clean output. It suppo
 
 ```hcl
 module "project" {
-  source = "https://github.com/vitaliejicol/terraform-launchdarkly-project.git"
+  source = "git::https://github.com/terraform-launchdarkly-modules/terraform-launchdarkly-project.git"
 
   project_key = "example-project"
   project_name = "Example Project"
