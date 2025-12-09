@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.4](https://github.com/terraform-launchdarkly-modules/terraform-launchdarkly-project/compare/v1.0.3...v1.0.4) (2025-12-09)
+
+
+### Bug Fixes
+
+* removed double quotes ([d112966](https://github.com/terraform-launchdarkly-modules/terraform-launchdarkly-project/commit/d112966ea09e85f29cf32a1052d6f583fea447c9))
+
 ## [1.0.3](https://github.com/terraform-launchdarkly-modules/terraform-launchdarkly-project/compare/v1.0.2...v1.0.3) (2025-12-09)
 
 
